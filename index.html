@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TotalOficcePro</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+      <section id = "menu">
+        <ul>
+          <a href="#">Inicio</a>
+          <a href="#">Acerca de</a>
+          <a href="#">Tienda</a>
+          <a href="#">Línea de Negocios</a>
+          <a href="#">Socios de Negocios</a>
+          <a href="#">Contacto</a>
+        </ul>
+      </section>
+    </header>
+    <!--Barra de navegación-->
+    <nav id="navegacion">
+      <ul>
+        <li>Inicio</li>
+        <li>Acerca de</details></li>
+        <li>Tienda</li>
+        <li>Línea de Negocios</li>
+        <li>Contacto</li>
+        <li>Socios de Negocios</li>
+      </ul>
+    </nav>
+    <!--Logo-->
+    <section id = "galeria">
+      <div id="logo" class="logo-container">
+        <img src="https://totaloffice.mx/skin/frontend/alodigitalstore/default/images/logo_total_office_193x38.png">
+      </div>
+    </section>
+    <!--Carrusel-->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item bg-primary" data-bs-interval="3000">
+          <img src="https://totaloffice.mx/media/magiccart/magicslider/cache/870x570//b/a/banner_4.jpg">
+        </div>
+        <div class="carousel-item active  bg-primary" data-bs-interval="3000">
+          <img src="https://totaloffice.mx/media/magiccart/magicslider/cache/870x570//b/a/banner3.jpg">
+        </div>
+        <div class="carousel-item  bg-primary" data-bs-interval="3000">
+          <img src="https://totaloffice.mx/media/magiccart/magicslider/cache/870x570//b/a/banner1_1.jpg" class="d-block w-50" alt="flor">
+        </div>
+      </div>
+      <!--Botón carrusel-->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+      <!--Menú desplegable-->
+    <div class="accordion container" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            ¿Quiénes somos?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body d-flex justify-content-center">
+            <p>
+              ​Somos una empresa mexicana, dedicada al suministro de una amplia gama de insumos para oficina, papelería, consumibles, tecnología de la información, mobiliario, línea blanca, cafetería y jarcería; brindándole la oportunidad de obtener todo lo que necesite en un solo lugar, por ello, nos hemos convertido en el principal proveedor de oficinas, corporativos, empresas, PyMes y Gobierno.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Acerca de Totaloffice
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>​Somos tu fuente número uno en soluciones y requerimientos de insumos para oficina. Desde el año 2014, nos hemos propuesto atenderles con una amplia gama de productos y servicios. Escuchando activamente las necesidades de nuestros clientes y asegurándonos de que queden satisfechos sus requerimientos.
+              Trabajando con nuestros clientes desde el primer paso hasta la entrega de sus productos y servicios. Informando a cada paso para asegurarnos de que estén completamente enterados del proceso. Nuestro trabajo es nuestra pasión, por lo que nos comprometemos a dejar satisfechas las solicitudes de nuestros  clientes.</p>
+            <div class="container">
+              <img class="w-50" src="https://totaloffice.mx/media/wysiwyg/total_office/260x197_1_2.jpg" alt="atención">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Línea de Negocios
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              Nuestra Oferta
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Footer</p>
+        <div class="Logogris"> 
+          <img class="w-10" src="https://totaloffice.mx/skin/frontend/alodigitalstore/default/images/logo_total_office_193x38.png" alt="prueba">
+        </div>
+      </footer>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

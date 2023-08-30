@@ -1,0 +1,67 @@
+/* Reinicio del modelo de cajas */
+* {
+    padding: 0;
+    margin: 20;
+    border: 0;
+    background-color: whitesmoke;
+  }
+
+  #logo {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border: 0;
+  
+  }
+
+  #navegacion {
+    display:flex;
+    justify-content:center;
+    align-items: left;
+    height: 50px;
+    background-color:whitesmoke;
+  }
+  
+  #navegacion > ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #navegacion > ul > li {
+    font-family:'Lucida Sans';
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+  
+  }
+  
+  #navegacion > ul > li:hover {
+    background-color:rgb(236, 234, 192);
+    color:navy;
+    cursor: pointer;
+  } 
+  #accordionExample{
+    background-color: whitesmoke;
+
+  }
+  #container-grid {
+    background-color: yellow;
+  }
+  
+  #container-grid .col {
+    border: 1px solid black;
+  }
+  footer {
+    background-color:black;
+    padding: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+
+  
